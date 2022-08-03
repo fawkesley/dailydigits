@@ -22,7 +22,7 @@ def index(secret):
 
     lines = []
 
-    for days in range(0, 7):
+    for days in range(0, 10):
         date = today + datetime.timedelta(hours=24*days)
 
         digits = date_to_digits(date, secret, 8)
